@@ -7,12 +7,21 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/CuBoulder/ucb2019_base"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/CuBoulder/d8_profile_base"
         }
     ],
     "require": {
         "php": ">=7.0.8",
         "composer/installers": "^1.0.20",
         "cu-boulder/ucb2019_base": "master",
+        "cu-boulder/d8-profile-ucbstandard": "dev-master",
         "cweagans/composer-patches": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
         "drupal/admin_toolbar": "^2.0",
@@ -24,10 +33,12 @@
         "drupal/field_group": "^3.0-rc2",
         "drupal/paragraphs": "^1.10",
         "drupal/pathauto": "^1.6",
+        "drupal/simplesamlphp_auth": "^3.1",
         "drush-ops/behat-drush-endpoint": "^9.3",
         "drush/drush": "~8.0",
         "pantheon-systems/quicksilver-pushback": "^2",
         "rvtraveller/qs-composer-installer": "^1.1",
+        "simplesamlphp/simplesamlphp": "^1.18",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
