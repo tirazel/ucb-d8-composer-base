@@ -85,7 +85,17 @@
         "prepare-for-pantheon": "DrupalProject\\composer\\ScriptHandler::prepareForPantheon",
         "post-install-cmd": [
             "@drupal-scaffold",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/config/config.php",
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php",
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php",
+            "rm -f ./vendor/simplesamlphp/simplesamlphp/cert",
+            "ln -s ../../../../private/simplesaml-config.php ./vendor/simplesamlphp/simplesamlphp/config/config.php",
+            "ln -s ../../../../private/authsources.php ./vendor/simplesamlphp/simplesamlphp/config/authsources.php",
+            "ln -s ../../../../private/metadata/saml20-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/saml20-idp-remote.php",
+            "ln -s ../../../../private/metadata/shib13-idp-remote.php ./vendor/simplesamlphp/simplesamlphp/metadata/shib13-idp-remote.php",
+            "ln -s ../../../private/cert ./vendor/simplesamlphp/simplesamlphp/cert"
         ],
         "post-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
