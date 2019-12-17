@@ -9,8 +9,8 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/CuBoulder/ucb2019_base"
+            "url": "https://github.com/CuBoulder/ucb2019_base.git",
+            "type": "git"
         },
         {
             "type": "vcs",
