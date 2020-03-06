@@ -13,6 +13,10 @@
             "type": "git"
         },
         {
+            "url": "https://github.com/CuBoulder/ucb2020_admin.git",
+            "type": "git"
+        },
+        {
             "type": "vcs",
             "url": "https://github.com/CuBoulder/d8_profile_base"
         }
@@ -21,6 +25,7 @@
         "php": ">=7.0.8",
         "composer/installers": "^1.0.20",
         "cu-boulder/ucb2019_base": "master",
+        "cu-boulder/ucb2020_admin": "master",
         "cu-boulder/d8-profile-ucbstandard": "dev-master",
         "cweagans/composer-patches": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
