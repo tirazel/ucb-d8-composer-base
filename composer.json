@@ -6,7 +6,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packages.drupal.org/9"
+            "url": "https://packages.drupal.org/8"
         },
         {
             "url": "https://github.com/CuBoulder/ucb2019_base.git",
@@ -33,14 +33,14 @@
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",
-        "drupal/core-recommended": "^9.0",
+        "drupal/core-recommended": "^8.0",
         "drupal/features": "^3.8",
         "drupal/field_group": "^3.0-rc2",
         "drupal/paragraphs": "^1.10",
         "drupal/pathauto": "^1.6",
         "drupal/simplesamlphp_auth": "^3.1",
         "drush-ops/behat-drush-endpoint": "^9.3",
-        "drush/drush": "^10.0",
+        "drush/drush": "^9.0",
         "pantheon-systems/quicksilver-pushback": "^2",
         "rvtraveller/qs-composer-installer": "^1.1",
         "simplesamlphp/simplesamlphp": "^1.18",
