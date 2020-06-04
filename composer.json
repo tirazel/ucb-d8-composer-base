@@ -6,7 +6,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packages.drupal.org/8"
+            "url": "https://packages.drupal.org/9"
         },
         {
             "url": "https://github.com/CuBoulder/ucb2019_base.git",
